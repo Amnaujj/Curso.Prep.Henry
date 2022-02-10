@@ -1,11 +1,17 @@
-.thirdDiv {
+h1 {
+    color:rgb(121, 7, 7);
+}
+img {
+    width: 400px;
+}
+#thirdDiv {
     height: 600px;
     width: 500px;
-    background-color: azure;
+    background-color: dodgerblue;
     padding: 50px;
-    border-width: 10px;
-    border-color: dodgerblue;
+    border: 5px solid black;
 }
+
 #spanId {
     font-size: 18px;
     margin: 50px;
