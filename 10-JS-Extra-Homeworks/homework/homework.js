@@ -72,9 +72,8 @@ function capicua(numero){
   //izquierda a derecha que de derecha a izquierda. Caso contrario retorna "No es capicua"
   //Escribe tu código aquí
   var num = numero.toString();
-  var num2 = '';
-  num2 = num.split('').reverse().join('');
-  if (num == num2){
+  var num2 = num.split('').reverse().join('');
+  if (num === num2){
     return 'Es capicua';
   } else {
     return 'No es capicua';
